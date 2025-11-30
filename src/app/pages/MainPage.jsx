@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { StarIcon } from "../components/Icons"
+import { StarIcon, ArrowRotateIcon } from "../components/Icons"
 
 export function MainPageLayout(){
     return(
@@ -28,9 +28,9 @@ export function MainPageLayout(){
                 </div>
                 <div className=" md:w-120 bg-white/30 rounded-lg">
                     <div className="grid text-lg gap-4 p-4">
-                        <div className="flex gap-4  bg-blue-900/6 p-4 rounded-lg">
+                        <div className="flex gap-4 items-center bg-blue-900/6 p-4 rounded-lg">
                             <div>
-                                Icon
+                                <ArrowRotateIcon className="w-10"/>
                             </div>
                             <div>
                                 <div className="font-bold">

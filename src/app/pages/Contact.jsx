@@ -1,3 +1,5 @@
+import { EmailIcon, InstaIcon, PhoneIcon } from "../components/Icons";
+
 export function ContactPage(){
     return(
         <div className="py-20">
@@ -5,14 +7,14 @@ export function ContactPage(){
                 <div className="text-4xl font-bold text-black">
                     felt convinced yet?
                 </div>
-                <div className="text-xl font-light text-slate-600">
-                    get in touch with us
+                <div className="text-[1.1rem] font-light text-slate-600">
+                    get in touch with us!
                 </div>
                 <div className="flex mt-10 flex-col gap-y-4 items-center">
                     <div className="p-4 w-70 md:w-100 bg-white/20 rounded-lg text-black">
-                        <div className="flex gap-4">
+                        <div className="flex gap-4 items-center">
                             <div>
-                                Icon
+                                <PhoneIcon className="w-6"/>
                             </div>
                             <div>
                                 Phone
@@ -21,9 +23,9 @@ export function ContactPage(){
                         </div>
                     </div>
                     <div className="p-4 w-70  md:w-100 bg-white/20 rounded-lg text-black">
-                        <div className="flex gap-4">
+                        <div className="flex gap-4 items-center">
                             <div>
-                                Icon
+                                <EmailIcon className="w-6"/>
                             </div>
                             <div>
                                 Email
@@ -32,9 +34,9 @@ export function ContactPage(){
                         </div>
                     </div>
                     <div className="p-4 w-70  md:w-100 bg-white/20 rounded-lg text-black">
-                        <div className="flex gap-4">
+                        <div className="flex gap-4 items-center">
                             <div>
-                                Icon
+                                <InstaIcon className="w-6"/>
                             </div>
                             <div>
                                 Instagram

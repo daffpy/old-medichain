@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { StarIcon, ArrowRotateIcon } from "../components/Icons"
+import { StarIcon, LockIcon, UserControlIcon, IntegrityIcon } from "../components/Icons"
 
 export function MainPageLayout(){
     return(
@@ -30,7 +30,7 @@ export function MainPageLayout(){
                     <div className="grid text-lg gap-4 p-4">
                         <div className="flex gap-4 items-center bg-blue-900/6 p-4 rounded-lg">
                             <div>
-                                <ArrowRotateIcon className="w-10"/>
+                                <LockIcon className="w-10"/>
                             </div>
                             <div>
                                 <div className="font-bold">
@@ -44,7 +44,7 @@ export function MainPageLayout(){
                         </div>
                         <div className="flex gap-4  bg-blue-900/6 p-4 rounded-lg">
                             <div>
-                                Icon
+                                <UserControlIcon className="w-10"/>
                             </div>
                             <div>
                                 <div className="font-bold">
@@ -58,7 +58,7 @@ export function MainPageLayout(){
                         </div>
                         <div className="flex gap-4  bg-blue-900/6 p-4 rounded-lg">
                             <div>
-                                Icon
+                                <IntegrityIcon className="w-10" />
                             </div>
                             <div>
                                 <div className="font-bold">
